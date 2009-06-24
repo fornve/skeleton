@@ -1,0 +1,16 @@
+This is a skeleton for projects using LiteEntityLib framework. 
+
+You may need to install includes as follow:
+1. Create include directory
+mkdir /var/www/include
+
+2. Get include class
+cd /var/www/include
+git clone git@github.com:fornve/skeleton.git
+
+3. Get smarty and unpack it to:
+/var/www/include/smarty
+
+If you want to use different paths, you can specify them in index.php and config/config.php
+
+Any problems feel free to use our forum at http://sum-e.com 
