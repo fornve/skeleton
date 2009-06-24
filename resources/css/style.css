@@ -1,0 +1,101 @@
+.body, .html, *
+{
+	margin: 0; padding: 0;
+	font-family: Arial, Verdana, sans;
+}
+
+/* layout */
+
+.pre_header
+{
+	background-color: #000;
+	color: #fff;
+}
+
+.header, .footer
+{
+	background-color: #a1ccee;
+	color: #000;
+}
+
+.header
+{
+	height: 100px;
+}
+
+.breadcrumb
+{
+	padding: 5px 20px;
+	border-bottom: 1px solid #a1ccee;
+}
+
+.content
+{
+	min-width: 960px;
+	padding: 20px;
+}
+
+.sidebar
+{
+	float: right;
+	margin-left: 20px;
+	padding: 20px;
+	border: 2px solid #a1ccee;
+	-moz-border-radius: 10px;
+}
+
+.footer
+{
+	clear: both;
+	min-height: 20px;
+}
+
+/* misc / general */
+
+a		{ text-decoration: none; }
+a:hover	{ text-decoration: underline; }
+img		{ border: none; }
+
+/* main menu */
+
+.pre_header dl.menu		{ padding: 2px; list-style: none; }
+.pre_header .menu li	{ display: inline; }
+.pre_header .menu a		{ color: #fff; }
+
+/* logo */
+.header #logo
+{
+	float: left;
+}
+
+.header #logo a
+{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* login */
+.login			{ padding-top: 5px; margin-right: 20px; width: 280px; float: right; }
+.login th		{ font-weight: normal; width: 100px; padding: 5px 0; font-size: 14px; }
+.login input	{ width: 180px; border: 1px solid #000; -moz-border-radius: 3px; font-size: 14px; padding: 2px 5px; }
+.login .button	{ width: 70px; margin: 3px 0 5px 110px; padding-top: 2px;  -moz-border-radius: 10px; }
+
+/* breadcrumb style */
+.breadcrumb dl		{ padding: 0; list-style: none;  }
+.breadcrumb li		{ display: inline; }
+
+/* button */
+.button
+{
+	background-color: #000;
+	color: #fff;
+	padding: 3px 10px;
+	border: 2px solid #000;
+	width: 120px;
+	text-align: center;
+	-moz-border-radius: 10px;
+	display: block;
+	margin: 10px;
+	cursor: pointer;
+}
