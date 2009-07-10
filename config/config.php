@@ -8,7 +8,7 @@ define( 'PROJECT_PATH', substr( __file__, 0, strlen( __file__ ) - 18 ) );
 define( 'PROJECT_NAME', 'skeleton' ); // change me
 define( 'SMARTY_COMPILE_DIR', '/tmp/'. PROJECT_NAME );
 
-define( 'INCLUDE_PATH', '/var/www/include/' )
+define( 'INCLUDE_PATH', '/var/www/include/' );
 define( 'SMARTY_DIR', INCLUDE_PATH .'smarty/' );
 define( 'SMARTY_TEMPLATES_DIR', PROJECT_PATH ."/templates/" );
 define( 'PRODUCTION', false );
